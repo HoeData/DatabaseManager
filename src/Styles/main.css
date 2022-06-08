@@ -1,0 +1,125 @@
+:root {
+    --select-color: rgb(37,58,75);
+    --hover-color:rgb(79,116,146);
+    --pane-padding: 5px 42px;
+  }
+
+  /*滚动条*/
+::-webkit-scrollbar {
+    height: 10px;
+    width:10px;
+  }
+  /*滚动条*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background:  var(--select-color); 
+  }
+  /*滚动槽*/
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0;
+    border-radius: 0;
+    background:  white; 
+  }
+
+/*导入数据按钮*/
+.import-button{
+    background-color: var(--select-color);
+    width: 32px;
+    height: 32px; 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor:pointer;
+}
+.import-button:hover{
+    background-color: var(--hover-color);
+    cursor:pointer;
+}
+
+.ant-tree-node-content-wrapper{
+    display: inline !important;
+}
+
+.ant-tree-title{
+    width: 100px !important;
+    display:inline-block !important;
+}
+.ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background-color: var(--select-color) !important;
+}
+.ant-tree.ant-tree-directory .ant-tree-treenode-selected:hover::before,
+.ant-tree.ant-tree-directory .ant-tree-treenode-selected::before {
+  background: var(--select-color) !important;
+}
+
+.ant-btn-primary
+{
+    background: var(--select-color) !important;
+    border-color: var(--select-color) !important;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    background: var(--hover-color) !important;
+    border-color: var(--hover-color) !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn
+{
+    color: var(--select-color) !important;
+}
+
+.ant-tabs-tab-btn:hover{
+    color: var(--hover-color) !important;
+}
+
+.ant-pagination-item-active a {
+    color: var(--select-color) !important;
+}
+
+ 
+.ant-pagination-item-active {
+    border-color: var(--select-color) !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+    border-color:  var(--select-color) !important;
+}
+.ant-radio-inner::after {
+    background: var(--select-color) !important;
+}
+
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+  border-color: var(--select-color) !important;
+}
+
+.ant-input:hover,.ant-input:focus,
+.ant-input-focused ,.ant-input-number:not([disabled]):hover {
+    border-color: var(--select-color) !important;
+}
+.ant-input-password:hover,.ant-input-password:focus,
+.ant-input-affix-wrapper-focused 
+{
+    border-color: var(--select-color) !important;
+}
+.ant-select-selector:hover,.ant-select-selector:focus{
+    border-color: var(--select-color) !important;
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-color:  var(--select-color) !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--select-color) !important;
+    border-color: var(--select-color) !important;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: var(--select-color) !important;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after 
+{
+    background-color: var(--select-color) !important;
+}

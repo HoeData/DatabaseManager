@@ -1,0 +1,7 @@
+.hostItem:hover{
+    background-color: lightgray;
+}
+
+.hostItem{
+    background-color:white;
+}
