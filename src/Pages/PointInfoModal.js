@@ -168,6 +168,10 @@ function PointInfoModal(props) {
         {
             return CheckUpLow(-1.79E+308,+1.79E+308);
         }
+        else
+        {
+            return true;
+        }
     }
     const CheckUpLow=(low,up)=>
     {
