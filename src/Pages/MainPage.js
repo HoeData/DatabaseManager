@@ -730,7 +730,7 @@ function MainPage(props) {
     return <Layout >
         <Header style={{
             backgroundColor: 'rgb(24,31,41)', height: '50px',
-            border: '1px solid whitesmoke',
+            // border: '1px solid whitesmoke',
         }}>
             <Row  >
                 <Col span={18} style={{ height: '50px', display: 'flex', alignItems: 'center' }} >
