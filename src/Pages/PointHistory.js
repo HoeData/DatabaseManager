@@ -66,6 +66,9 @@ function PointHistory(props) {
             dataIndex: 'Value',
             width: 60,
             ellipsis: true,
+            render: (text, row) => {
+                return row.Type === 0 ? Number(text): (text + "");
+            }
         },
         {
             title: '质量码',

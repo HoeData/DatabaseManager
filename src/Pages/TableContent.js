@@ -246,11 +246,11 @@ function TableContent(props) {
             dataIndex: 'Value',
             width: 100,
             ellipsis: true,
-            render: (text) => {
+            render: (text, row) => {
                 if (text == undefined)
                     return "";
                 else
-                    return text + ""
+                    return row.Type === 0 ? Number(text): (text + "");
             }
         },
         {
