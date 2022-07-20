@@ -62,7 +62,7 @@ const EditableCell = ({
   };
 
   let childNode = children;
-  console.log('children', children);
+  // console.log('children', children);
   if (editable) {
     childNode = editing ? (
       <Form.Item
